@@ -202,7 +202,7 @@ const MainContent = () => {
           },
         }}
       >
-        <DialogTitle>Update Score</DialogTitle>
+        <DialogTitle><h1 className="font-bold">Update Score</h1></DialogTitle>
         <DialogContent>
           <TextField
             autoFocus
