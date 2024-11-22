@@ -98,13 +98,15 @@ const MainContent = () => {
           </p>
         </div>
         <LineChart
+        // className="w-[400px] h-[400px]"
           xAxis={[{ data: [0, 25, 50, 75, 100] }]}
           series={[
             {
               data: [0, 25, 50, 85, 100],
             },
           ]}
-          width={400}
+
+          width={350}
           height={300}
         />
       </div>
